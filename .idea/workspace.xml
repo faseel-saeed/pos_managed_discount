@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6954a6fe-4a19-48a1-bed2-399c88e4f721" name="Changes" comment="initial">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__manifest__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/src/js/DiscountButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/src/js/DiscountButton.js" afterDir="false" />
-    </list>
+    <list default="true" id="6954a6fe-4a19-48a1-bed2-399c88e4f721" name="Changes" comment="added a dedicated discount admin group" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,9 +26,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/faseel/Documents/Odoo Dev Projects/pos_managed_discount"
+    "last_opened_file_path": "C:/Users/faseel/Documents/Odoo Dev Projects/pos_managed_discount/static/src/js"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\faseel\Documents\Odoo Dev Projects\pos_managed_discount\static\src\js" />
+      <recent name="C:\Users\faseel\Documents\Odoo Dev Projects\pos_managed_discount\models" />
+      <recent name="C:\Users\faseel\Documents\Odoo Dev Projects\pos_managed_discount\views" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,11 +59,19 @@
       <option name="project" value="LOCAL" />
       <updated>1678052860882</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added a dedicated discount admin group">
+      <created>1681860217071</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681860217071</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="added a dedicated discount admin group" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a dedicated discount admin group" />
   </component>
 </project>
