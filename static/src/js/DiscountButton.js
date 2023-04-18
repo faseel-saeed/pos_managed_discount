@@ -16,12 +16,15 @@ odoo.define('pos_managed_discount.DiscountButton', function(require) {
 
 
 
+
+
             const { confirmed, payload } = await this.showPopup('NumberPopup',{
                 title: 'Discount Percentage',
                 startingValue: this.env.pos.config.discount_pc,
                 isInputSelected: true
             });
             if (confirmed) {
+                console.log(this.env.pos);
                 let hasDiscountControl = self.env.pos.hasDiscountControl();
 
 

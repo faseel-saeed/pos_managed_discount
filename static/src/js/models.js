@@ -7,8 +7,8 @@ odoo.define('pos_managed_discount.models', function(require) {
     const ManagedPosGlobalState = (PosGlobalState) => class extends PosGlobalState {
 		hasDiscountControl() {
 		    let cashier = this.get_cashier();
-		    console.log(cashier);
-		    let hasControl = cashier.role=='manager'?true:false;
+		    //console.log(cashier);
+		    let hasControl = cashier.discount_admin==true?true:false;
 			return hasControl;
 		}
 	}
