@@ -6,11 +6,15 @@ odoo.define('pos_managed_discount.models', function(require) {
 
     const ManagedPosGlobalState = (PosGlobalState) => class extends PosGlobalState {
 		hasDiscountControl() {
-		    let cashier = this.get_cashier();
+		    let user = this.get_user();
 		    //console.log(cashier);
-		    let hasControl = cashier.discount_admin==true?true:false;
+		    let hasControl = user.discount_admin==true?true:false;
 			return hasControl;
 		}
+
+		get_user() {
+            return this.user;
+        }
 	}
 	Registries.Model.extend(PosGlobalState, ManagedPosGlobalState);
 	return ManagedPosGlobalState;
