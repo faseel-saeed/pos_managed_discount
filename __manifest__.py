@@ -2,6 +2,10 @@
 {
     'name': 'Point of Sale Managed Discounts',
     'version': '1.1',
+    'author': 'Benlever Pvt Ltd',
+    'company': 'Benelever Pvt Ltd',
+    'website': 'https://www.benlever.com',
+    'maintainer': 'Benlever Pvt Ltd',
     'category': 'Sales/Point of Sale',
     'sequence': 6,
     'summary': 'Managed Discounts in the Point of Sale',

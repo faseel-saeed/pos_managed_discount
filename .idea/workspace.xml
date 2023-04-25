@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6954a6fe-4a19-48a1-bed2-399c88e4f721" name="Changes" comment="added a dedicated discount admin group" />
+    <list default="true" id="6954a6fe-4a19-48a1-bed2-399c88e4f721" name="Changes" comment="introduced new method to get the user instead of the cashier. getCashier method was being overriden by some other module" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,11 +26,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/faseel/Documents/Odoo Dev Projects/pos_managed_discount/static/src/js"
+    "last_opened_file_path": "C:/Users/faseel/Documents/Odoo Dev Projects/pos_managed_discount"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\faseel\Documents\Odoo Dev Projects\pos_managed_discount\tests" />
       <recent name="C:\Users\faseel\Documents\Odoo Dev Projects\pos_managed_discount\static\src\js" />
       <recent name="C:\Users\faseel\Documents\Odoo Dev Projects\pos_managed_discount\models" />
       <recent name="C:\Users\faseel\Documents\Odoo Dev Projects\pos_managed_discount\views" />
@@ -66,12 +67,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681860217071</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added tests">
+      <created>1681860532695</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681860532695</updated>
+    </task>
+    <task id="LOCAL-00005" summary="introduced new method to get the user instead of the cashier. getCashier method was being overriden by some other module">
+      <created>1682454487173</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682454487173</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
     <MESSAGE value="added a dedicated discount admin group" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a dedicated discount admin group" />
+    <MESSAGE value="added tests" />
+    <MESSAGE value="introduced new method to get the user instead of the cashier. getCashier method was being overriden by some other module" />
+    <option name="LAST_COMMIT_MESSAGE" value="introduced new method to get the user instead of the cashier. getCashier method was being overriden by some other module" />
   </component>
 </project>
